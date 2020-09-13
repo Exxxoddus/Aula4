@@ -1,0 +1,17 @@
+fun  main () {
+	
+   println ( " Digite a altura: " )
+   var altura = readLine () !! .dobrar()
+
+   var pesoIdealHomem = ( 72,7  * Altura) -  58
+   var pesoIdealMulher = ( 62,1  * h) -  44,7
+
+   println ( " Para homens: " + pesoIdealHomem)
+   println ( " Para mulheres: " + pesoIdealMulher)
+
+   
+
+
+
+
+}
