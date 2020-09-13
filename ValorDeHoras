@@ -1,0 +1,14 @@
+fun  main () {
+
+    println ( " Quanto vale sua hora? " )
+    var valorHora = readLine () !! .dobrar()
+
+    println ( " Quantas horas voce tem trabalho? " )
+    var totHoras = readLine () !! .dobrar()
+
+    
+    var salario = (valorHora * totHoras)
+
+    println ( " voce receberá R $ " + salario)
+    
+}
